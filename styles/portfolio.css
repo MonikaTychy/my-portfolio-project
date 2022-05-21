@@ -56,8 +56,15 @@ padding: 140px 0px;
 margin-left: 0;
 }
 
-.about-hero {
+.content {
     margin: 120px auto;
+}
+
+.contact-box {
+    background-color: #282323;
+    padding: 20px;
+    margin: 100px 100px;
+    border-radius: 8px;
 }
 
 .btn-customized {
@@ -87,6 +94,7 @@ margin-left: 0;
 
 .icons i {
     color: var(--primary-color);
+    transition: all 150ms ease-in-out;
 }
 
 .icons i:hover {
@@ -101,6 +109,17 @@ margin-left: 0;
     text-decoration: none;
 }
 
+.email {
+    color: var(--primary-color); 
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: var(--primary-color); 
+    text-decoration: underline;
+}
+
 
 @media (max-width: 912px) {
     h1 {
@@ -113,5 +132,16 @@ margin-left: 0;
 
     p {
         font-size: 14px;
+    }
+
+    .content {
+        text-align: center;
+    }
+    .contact-box {
+        margin: 80px auto;
+    }
+
+    .hero-about-photo {
+        width: 50%;
     }
 }
