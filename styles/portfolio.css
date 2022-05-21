@@ -37,8 +37,9 @@ h3 {
 
 p {
     color: var(--primary-color); 
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
+    line-height: 2;
 }
 
 footer {
@@ -51,7 +52,12 @@ footer {
 }
 
 .hero {
-    padding: 140px 0px;
+padding: 140px 0px;
+margin-left: 0;
+}
+
+.about-hero {
+    margin: 120px auto;
 }
 
 .btn-customized {
@@ -71,6 +77,30 @@ footer {
 .btn-customized:hover {
     color: var(--primary-color);
 }
+
+.icons {
+    margin-top:80px;
+    margin-bottom: 140px;
+    text-align: start;
+    font-size: 20px;
+}
+
+.icons i {
+    color: var(--primary-color);
+}
+
+.icons i:hover {
+    color: var(--secondary-color); 
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons a:visited {
+    text-decoration: none;
+}
+
 
 @media (max-width: 912px) {
     h1 {
