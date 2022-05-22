@@ -51,6 +51,12 @@ footer {
     padding: 20px 0;
 }
 
+.custom-navbar {
+    background-color: #282323;
+    font-size: 16px;
+    font-family: var(--main-font-family);
+}
+
 .hero {
 padding: 140px 0px;
 margin-left: 0;
