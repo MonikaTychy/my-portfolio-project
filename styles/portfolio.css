@@ -48,7 +48,13 @@ footer {
     position: static;
     bottom: 0;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
+}
+
+footer p {
+    text-align: end;
+    font-size: 14px;
+    margin: 0;
 }
 
 .custom-navbar {
@@ -58,18 +64,18 @@ footer {
 }
 
 .hero {
-padding: 140px 0px;
+padding: 70px 0px;
 margin-left: 0;
 }
 
 .content {
-    margin: 120px auto;
+    margin: 60px auto;
 }
 
 .contact-box {
     background-color: #282323;
+    margin-top: 100px;
     padding: 20px;
-    margin: 100px 100px;
     border-radius: 8px;
 }
 
@@ -91,27 +97,35 @@ margin-left: 0;
     color: var(--primary-color);
 }
 
-.icons {
-    margin-top:80px;
-    margin-bottom: 140px;
+.contact-icons {
+margin-top:80px;
+margin-bottom: 140px;
+}
+
+.contact-icons,
+.footer-icons {
     text-align: start;
     font-size: 20px;
 }
 
-.icons i {
+.contact-icons i,
+.footer-icons i {
     color: var(--primary-color);
     transition: all 150ms ease-in-out;
 }
 
-.icons i:hover {
+.contact-icons i:hover,
+.footer-icons i:hover {
     color: var(--secondary-color); 
 }
 
-.icons a {
+.contact-icons a,
+.footer-icons a {
     text-decoration: none;
 }
 
-.icons a:visited {
+.contact-icons a:visited,
+.footer-icons a:visited {
     text-decoration: none;
 }
 
