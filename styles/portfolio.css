@@ -6,9 +6,15 @@
     --secondary-color: #F65282;
 }
 
+html {
+    height: 100%;
+  }
+
 body {
     background: var(--background-color);
     font-family: var(--main-font-family);
+    min-height: 100%;
+    position:relative;
 }
 
 h1, h2 {
@@ -45,16 +51,27 @@ p {
 footer {
     background: #282323;
     color: var(--primary-color);
-    position: static;
+    position: absolute;
+    width: 100%;
     bottom: 0;
     margin: 0;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 footer p {
     text-align: end;
     font-size: 14px;
     margin: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
 }
 
 .custom-navbar {
@@ -65,11 +82,13 @@ footer p {
 
 .hero {
 padding: 70px 0px;
+padding-bottom: 80px;
 margin-left: 0;
 }
 
 .content {
     margin: 60px auto;
+    padding-bottom: 70px;
 }
 
 .contact-box {
@@ -154,9 +173,6 @@ margin-bottom: 140px;
         font-size: 14px;
     }
 
-    .content {
-        text-align: center;
-    }
     .contact-box {
         margin: 80px auto;
     }
