@@ -114,6 +114,7 @@ margin-left: 0;
 
 .btn-customized:hover {
     color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .contact-icons {
